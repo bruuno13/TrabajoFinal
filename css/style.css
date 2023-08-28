@@ -1,0 +1,182 @@
+/* Estilo para las etiquetas h1 */
+.h1{
+  font-weight: bold;
+}
+/* Alinear el contenido del encabezado hacia la derecha */
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+}
+/* Estilos para el enlace del nav */
+.container-header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.container-header nav ul li {
+  margin-left: 20px;
+}
+.container-header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.dropdown:hover .dropdown-menu {
+  background-color: black;
+}
+.container-header nav ul li a:hover {
+  color: #ffc107;
+}
+section h2 {
+  background-color: black;
+  padding: 10px;
+  margin: 0;
+  flex-basis: calc(33.33% - 10px);
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+}
+footer{
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  margin-top: 7%;
+}
+@media (max-width: 320px) {
+  .container-header nav ul {
+    flex-direction: column;
+  }
+  .container-header nav ul li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .container-header {
+    padding: 5px 10px;
+  }
+}
+@media (min-width: 321px) and (max-width: 768px) {
+  .container-header nav ul {
+    flex-direction: column;
+  }
+  .container-header nav ul li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .container-header {
+    padding: 10px 20px;
+  }
+  section h2 {
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+  footer {
+    margin-top: 5%;
+  }
+}
+/*//////////HORARIOS///////////////*/
+/* Estilos para la sección de horarios */
+section.horarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+th {
+  background-color: black;
+  font-weight: bold;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: white;
+}
+.diadomingo{
+  font-weight: bold;
+  color: red;
+  font-size: 18px;
+}
+footer{
+  margin-top: 18%;
+}
+/*//////////PRODUCTOS///////////////*/
+/* Estilos para la sección de productos */
+.producto {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 10px;
+  text-align: center;
+  width: 20%;
+}
+/* Estilos para el precio */
+.precio {
+  font-size: 1.2rem;
+  color: #e57373;
+  margin-bottom: 5px;
+}
+/* Estilos para el botón de compra */
+.btn-comprar {
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 7px;
+}
+.btn-comprar:hover {
+  background-color: lightgreen;
+}
+section.productos {
+  text-align: center;
+  padding: 20px;
+}
+.imagen-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.imagen-container img {
+  max-width: 100%;
+  max-height: 550px;
+  width: calc(33.33% - 10px);
+  border-radius: 5px;
+}
+@media (max-width: 320px) {
+  .producto {
+    width: 100%;
+  }
+  .imagen-container img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 321px) and (max-width: 768px) {
+  .producto {
+    width: 40%;
+  }
+  .imagen-container img {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+}
