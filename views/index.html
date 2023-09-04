@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balance librería</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/productos.css">
+    <link rel="stylesheet" href="../css/horarios.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="../js/saludo.js"></script>
+    <script src="../js/carousel.js"></script>
 </head>
 <body>
     <header class="container-header">
@@ -36,7 +43,18 @@
     <main>
         <section class="container mt-5">
             <div class="imagen text-center">
-                <img src="../img/BalanceLibreria.jpeg" alt="imglibreria" class="img-fluid">
+                <section class="container mt-5">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../img/BalanceLibreria.jpeg" alt="Imagen 1" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/Lapiceras.webp" alt="Imagen 2" class="d-block w-100">
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
             <div class="py-5">
                 <h2 class="text-center">Bienvenido a Balance Libreria</h2>
