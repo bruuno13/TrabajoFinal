@@ -1,35 +1,33 @@
-/* Estilos para la sección de horarios */
 section.horarios {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-  }
-  table {
-    border-collapse: collapse;
-    width: 80%;
-    max-width: 600px;
-    margin-top: 20px;
-  }
-  th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
-  }
-  th {
-    background-color: black;
-    font-weight: bold;
-    color: white;
-  }
-  tr:nth-child(even) {
-    background-color: white;
-  }
-  .diadomingo{
-    font-weight: bold;
-    color: red;
-    font-size: 18px;
-  }
-  footer{
-    margin-top: 18%;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+th {
+  background-color: #001f3f;
+  font-weight: bold;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: white;
+}
+.diadomingo{
+  font-weight: bold;
+  color: red;
+  font-size: 18px;
+}
+footer{
+  margin-top: 18%;
+}
