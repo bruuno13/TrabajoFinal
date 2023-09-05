@@ -1,5 +1,5 @@
 $(document).ready(function() {
     $('#myCarousel').carousel({
-        interval: 3
+        interval: 1
     });
 });

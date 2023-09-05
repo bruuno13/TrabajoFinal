@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="../css/horarios.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="../js/comprar.js"></script>
 </head>
 <body>
     <header class="container-header">
-        <h1>Balance</h1>
+        <h1><a class="dropdown-item" href="./index.html">Balance</a></h1>
         <nav>
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
@@ -43,72 +44,73 @@
                     <h4>Resaltadores pastel Filgo</h4>
                     <img src="../img/136773e8e4fe4c575be45a553e99afa34174bbf5925d6ba48c5c3a27827ac21a59836.jpg" alt="Imagen 1">
                     <div class="info-producto">
-                        <p class="precio">$500</p>
-                        <button class="btn-comprar">Comprar</button>
+                        <p class="precio" data-precio="500">$500</p>
+                        <button class="btn-comprar" onclick="comprarProducto(this)" data-precio>Comprar</button>
+
                     </div>
                 </div>
                 <div class="producto">
                     <h4>Abrochadora Kangaro HP-10</h4>
                     <img src="../img/abrochadora-hp-10-para-broches-n10-kangaro.jpg" alt="Imagen 2">
                     <div class="info-producto">
-                        <p class="precio">$5500</p>
-                        <button class="btn-comprar">Comprar</button>
+                        <p class="precio" data-precio="5500">$5500</p>
+                        <button class="btn-comprar" onclick="comprarProducto(this)" data-precio>Comprar</button>
                     </div>
                 </div>
                 <div class="producto">
                     <h4>Cuadernillo America</h4>
                     <img src="../img/america_cuadernos_297_terra-021-a14ca20b269ba1012d15955190413228-640-0.jpg" alt="Imagen 3">
                     <div class="info-producto">
-                        <p class="precio">$700</p>
-                        <button class="btn-comprar">Comprar</button>
+                        <p class="precio" data-precio="700">$700</p>
+                        <button class="btn-comprar" onclick="comprarProducto(this)" data-precio>Comprar</button>
                     </div>
                 </div>
                 <div class="producto">
                     <h4>Biblioratos A4 lomo ancho</h4>
                     <img src="../img/bibliorato-the-pel-pastel1-53093bcf9f904efd8815987093113042-640-0.jpg" alt="Imagen 4">
                     <div class="info-producto">
-                        <p class="precio">$3500</p>
-                        <button class="btn-comprar">Comprar</button>
+                        <p class="precio" data-precio="3500">$3500</p>
+                        <button class="btn-comprar" onclick="comprarProducto(this)" data-precio>Comprar</button>
                     </div>
                 </div>
                 <div class="producto">
                     <h4>Corrector Faber Castell</h4>
                     <img src="../img/corrector-liquido-faber-castell-lapiz1-4f05a4cc3671f051a716511692239726-640-0.png" alt="Imagen 5">
                     <div class="info-producto">
-                        <p class="precio">$900</p>
-                        <button class="btn-comprar">Comprar</button>
+                        <p class="precio" data-precio="900">$900</p>
+                        <button class="btn-comprar" onclick="comprarProducto(this)" data-precio>Comprar</button>
                     </div>
                 </div>
                 <div class="producto">
                     <h4>Biblioratos A4 Lomo angosto</h4>
                     <img src="../img/D_940527-MLA50318623170_062022-F.jpg" alt="Imagen 6">
                     <div class="info-producto">
-                        <p class="precio">$2500</p>
-                        <button class="btn-comprar">Comprar</button>
+                        <p class="precio" data-precio="2500">$2500</p>
+                        <button class="btn-comprar" onclick="comprarProducto(this)" data-precio>Comprar</button>
                     </div>
                 </div>
                 <div class="producto">
                     <h4>Corrector Simball</h4>
                     <img src="../img/D_NQ_NP_658149-MLA45177928586_032021-W.jpg" alt="Imagen 7">
                     <div class="info-producto">
-                        <p class="precio">$550</p>
-                        <button class="btn-comprar">Comprar</button>
+                        <p class="precio" data-precio="550">$550</p>
+                        <button class="btn-comprar" onclick="comprarProducto(this)" data-precio>Comprar</button>
                     </div>
                 </div>
                 <div class="producto">
                     <h4>Resaltador Trabi</h4>
                     <img src="../img/resaltador_trabi_texter_fluo1-4f67350b6bee7f0aae15966414842046-640-0.jpg" alt="Imagen 8">
                     <div class="info-producto">
-                        <p class="precio">$700</p>
-                        <button class="btn-comprar">Comprar</button>
+                        <p class="precio" data-precio="700">$700</p>
+                        <button class="btn-comprar" onclick="comprarProducto(this)" data-precio>Comprar</button>
                     </div>
                 </div>
                 <div class="producto">
                     <h4>Biromes Faber castell</h4>
                     <img src="../img/0481e8da361d383992f4eff25ab136e45ff6496597e572c2cd81bd22ce7211f259836.jpeg" alt="Imagen 9">
                     <div class="info-producto">
-                        <p class="precio">$500</p>
-                        <button class="btn-comprar">Comprar</button>
+                        <p class="precio" data-precio="500">$500</p>
+                        <button class="btn-comprar" onclick="comprarProducto(this)" data-precio>Comprar</button>
                     </div>
                 </div>
             </div>
